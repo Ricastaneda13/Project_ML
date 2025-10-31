@@ -1,0 +1,20 @@
+cat <<EOF > .gitignore
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos de cache de Python
+__pycache__/
+*.pyc
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Modelos guardados (suelen ser grandes)
+models/
+*.joblib
+*.h5
+
+# Archivos de sistema
+.DS_Store
+EOF
